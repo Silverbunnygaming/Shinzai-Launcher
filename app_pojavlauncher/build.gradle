@@ -88,7 +88,7 @@ configurations {
 }
 
 android {
-    namespace 'net.kdt.pojavlaunch'
+    namespace 'com.Shinzai.Launcher'
 
     compileSdk = 34
 
