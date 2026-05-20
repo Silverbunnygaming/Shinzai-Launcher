@@ -1,6 +1,6 @@
-<h1 align="center">PojavLauncher</h1>
+<h1 align="center">Shinzai Launcher</h1>
 
-<img src="https://github.com/PojavLauncherTeam/PojavLauncher/blob/v3_openjdk/app_pojavlauncher/src/main/assets/pojavlauncher.png" align="left" width="130" height="150" alt="PojavLauncher logo">
+<img src="https://github.com/PojavLauncherTeam/PojavLauncher/blob/v3_openjdk/app_pojavlauncher/src/main/assets/Shinzai_Launcher.png" align="left" width="130" height="150" alt="Shinzai Launcher logo">
 
 [![Android CI](https://github.com/PojavLauncherTeam/PojavLauncher/workflows/Android%20CI/badge.svg)](https://github.com/PojavLauncherTeam/PojavLauncher/actions)
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/PojavLauncherTeam/PojavLauncher)](https://github.com/PojavLauncherTeam/PojavLauncher/actions)
@@ -10,14 +10,13 @@
 
 *From [Boardwalk](https://github.com/zhuowei/Boardwalk)'s ashes here comes PojavLauncher!*
 
-PojavLauncher is a launcher that allows you to play Minecraft: Java Edition on your Android and [iOS](https://github.com/PojavLauncherTeam/PojavLauncher_iOS) devices.
+Shinzai Launcher is a launcher that allows you to play Minecraft: Java Edition on your Android devices.
 
 For more details, check out our [wiki](https://pojavlauncher.app/)!
 
 ## Important Notes
 
-**PojavLauncher has been discontinued** and is no longer supported. Its successor is available [here](https://github.com/AngelAuraMC/Amethyst-Android).
-
+This Launcher is modified version of **Pojavlauncher** and allcredit goes to their owners.
 ## Table of Contents
 
 * [Introduction](#introduction)
@@ -36,16 +35,16 @@ For more details, check out our [wiki](https://pojavlauncher.app/)!
 
 ## Introduction
 
-* PojavLauncher is a Minecraft: Java Edition launcher for Android and iOS based on [Boardwalk](https://github.com/zhuowei/Boardwalk)
+* Shinzai Launcher is a Minecraft: Java Edition launcher for Android based on [Boardwalk](https://github.com/zhuowei/Boardwalk)
 * This launcher can launch almost all available Minecraft versions ranging from rd-132211 to 1.21 snapshots (including Combat Test versions)
 * Modding via Forge and Fabric are also supported.
 * This repository contains source code for Android. For iOS/iPadOS, check out [PojavLauncher_iOS](https://github.com/PojavLauncherTeam/PojavLauncher_iOS).
 
-## Getting PojavLauncher
+## Getting Shinzai Launcher
 
 You can get PojavLauncher via three methods:
 
-1. **Releases:** Download the prebuilt app from our [stable releases](https://github.com/PojavLauncherTeam/PojavLauncher/releases) or [automatic builds](https://github.com/PojavLauncherTeam/PojavLauncher/actions).
+1. **Releases:** Download the prebuilt app from our [stable releases](https://github.com/Silverbunnygaming/Shinzai-Launcher/releases) or [automatic builds](https://github.com/PojavLauncherTeam/PojavLauncher/actions).
 2. **Google Play:** Get it from Google Play by clicking on this badge: [![Google Play](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=net.kdt.pojavlaunch)
 3. **Build from Source:** Follow the [building instructions](#building) below.
 
