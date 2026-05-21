@@ -1,6 +1,6 @@
 <h1 align="center">Shinzai Launcher</h1>
 
-<img src="https://github.com/PojavLauncherTeam/PojavLauncher/blob/v3_openjdk/app_pojavlauncher/src/main/assets/Shinzai_Launcher.png" align="left" width="130" height="150" alt="Shinzai Launcher logo">
+<img src="https://github.com/Silverbunnygaming/Shinzai-Launcher/tree/v3_openjdk/app_pojavlauncher/src/main/assets/avatarHead2 (3).png" align="left" width="130" height="150" alt="Shinzai Launcher logo">
 
 [![Android CI](https://github.com/PojavLauncherTeam/PojavLauncher/workflows/Android%20CI/badge.svg)](https://github.com/PojavLauncherTeam/PojavLauncher/actions)
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/PojavLauncherTeam/PojavLauncher)](https://github.com/PojavLauncherTeam/PojavLauncher/actions)
