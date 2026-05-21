@@ -1,18 +1,16 @@
 name: Android CI
 
 on:
-  pull_request:
-    branches-ignore:
-      - 'l10n_v3_openjdk2'
-    types: [ opened, reopened ]
   push:
-    branches-ignore:
-      - 'l10n_v3_openjdk2'
+    branches: [ "*" ]
+  pull_request:
+    branches: [ "*" ]
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-22.04
+    # Yahan se humne saare env tokens hata diye hain taaki error na aaye
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -52,13 +50,7 @@ jobs:
       - name: Build Launcher APK
         run: |
           chmod +x gradlew
-          
-          # Pehle purani cache ko clean karenge aur resources ko dubara generate karenge
-          ./gradlew clean :app_pojavlauncher:processDebugResources --no-daemon
-          
-          # Ab bina class R error ke main build chalega
-          ./gradlew :app_pojavlauncher:assembleDebug --no-daemon
-          
+          ./gradlew clean :app_pojavlauncher:assembleDebug --no-daemon
           mv app_pojavlauncher/build/outputs/apk/debug/app_pojavlauncher-debug.apk out/app-debug.apk
 
       - name: Upload Finished APK
